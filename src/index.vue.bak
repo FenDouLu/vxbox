@@ -1,0 +1,105 @@
+<template>
+    <wxc-tab-bar
+            :tab-titles="tabTitles"
+            :tab-styles="tabStyles"
+            title-type="icon"
+            :tab-page-height="tabPageHeight"
+            @wxcTabBarCurrentTabSelected="wxcTabBarCurrentTabSelected">
+        <list v-for="(v,index) in tabList"
+              :key="index"
+              class="item-container"
+              :style="{ height: (tabPageHeight - tabStyles.height) + 'px' }">
+            <cell class="border-cell"></cell>
+            <cell v-for="(demo,key) in v"
+                  class="cell"
+                  :key="key"
+                  :accessible="true"
+                  aria-label="卡片测试｜四川成都出发到九寨沟牟尼沟 温泉3天2晚纯玩跟团旅游,价格219元">
+                <wxc-pan-item @wxcPanItemClicked="wxcPanItemClicked"
+                              @wxcPanItemPan="wxcPanItemPan">
+                    <wxc-item image="https://s1.ax1x.com/2018/06/27/PPycPU.jpg"
+                              :image-text="tabTitles[index].title"
+                              title="卡片测试｜四川成都出发到九寨沟牟尼沟 温泉3天2晚纯玩跟团旅游"
+                              :desc="desc"
+                              :tags="tags"
+                              price="666"
+                              price-desc="月售58笔｜999+条评论"/>
+
+                </wxc-pan-item>
+            </cell>
+        </list>
+
+    </wxc-tab-bar>
+</template>
+
+<script>
+import { WxcTabBar, Utils, WxcPanItem, BindEnv } from 'weex-ui'
+import WxcItem from './wxc-item.vue'
+import { getEntryUrl } from './base-url'
+import Vue from 'vue'
+// tab配置文件
+import Config from './config'
+var navigator = weex.requireModule('navigator')
+var modal = weex.requireModule('modal')
+
+export default {
+    components: { WxcTabBar, WxcPanItem, WxcItem },
+    data: () => ({
+        tabTitles: Config.tabTitles,
+        tabStyles: Config.tabStyles,
+        tabList: [],
+        demoList: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        tabPageHeight: 1334,
+        desc: [{
+            type: 'text',
+            value: '特价机票|班期:清明 3/27-4/2等',
+            theme: 'gray'
+        }],
+        tags: [{
+            type: 'tag',
+            value: '满100减20测试',
+            theme: 'yellow'
+        }]
+    }),
+    created () {
+        this.tabPageHeight = Utils.env.getPageHeight()
+        const { tabStyles } = this
+        this.contentStyle = { height: (this.tabPageHeight - tabStyles.height) + 'px' }
+
+        this.tabList = [...Array(this.tabTitles.length).keys()].map(i => [])
+        Vue.set(this.tabList, 0, this.demoList)
+    },
+    methods: {
+        wxcTabBarCurrentTabSelected (e) {
+            const index = e.page
+
+            if (!Utils.isNonEmptyArray(this.tabList[index])) {
+                setTimeout(() => {
+                    Vue.set(this.tabList, index, this.demoList)
+                }, 100)
+            }
+        },
+        wxcPanItemPan (e) {
+            if (BindEnv.supportsEBForAndroid()) {
+                this.$refs['wxc-tab-page'].bindExp(e.element)
+            }
+        },
+        wxcPanItemClicked (event) {
+            navigator.push({
+                url: getEntryUrl('next'),
+                animated: 'true'
+            }, event => {
+                modal.toast({ message: 'callback: ' + event })
+            })
+        }
+    }
+}
+</script>
+<style scoped>
+    .item-container {
+        width: 750px;
+        background-color: #f2f3f4;
+        align-items: center;
+        justify-content: center;
+    }
+</style>

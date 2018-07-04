@@ -1,0 +1,62 @@
+export function getEntryUrl (name) {
+    // 判断当前的环境，适配web端
+    if (weex.config.env.platform === 'Web') {
+        return './' + name + '.html'
+    } else {
+        let arr = weex.config.bundleUrl.split('/')
+        arr.pop()
+        arr.push(name + '.js')
+        return arr.join('/')
+    }
+}
+
+
+
+// 获取图片在三端上不同的路径
+// e.g. 图片文件名是 test.jpg, 转换得到的图片地址为
+// - H5      : http: //localhost:1337/src/images/test.jpg
+// - Android : local:///test
+// - iOS     : ../images/test.jpg
+get_img_path(img_name) {
+    let platform = weex.config.env.platform
+    let img_path = ''
+
+    if (platform == 'Web') {
+        img_path = `http://172.16.154.8:8081/web/images/${img_name}`
+    } else if (platform == 'android') {
+        // android 不需要后缀
+        img_name = img_name.substr(0, img_name.lastIndexOf('.'));
+        img_path = `local:///${img_name}`
+    } else {
+        img_path = `../images/${img_name}`
+    }
+
+    return img_path
+}
+
+
+// Android或者iOS 访问本地图片或者字体,在weex中统一以' local://'为前缀 ;
+// '/'在android下如果加载的是字体对应的就是assets目录,若果加载的图片就从drawable 目录, 所以iconfont.ttf放置在src/assets目录下的话,字体的url加载方式应该为('local:///iconfont.ttf')
+// iOS同理,不过资源文件在bundle resources下.(加载方法未测试)
+export function iconfontUtils () {
+
+    let dom = weex.requireModule('dom');
+    //通过获取platform判断加载字体文件的路径,(待完善,在手机的playground中,是无法加载本地文件的)
+    let platform = weex.config.env.platform.toLowerCase();
+    let url;
+    if ( "android" == platform) {
+        //本地资源采用'local:// '的方式加载
+        //第三个斜杠是代表当前目录,对于android来说,如果加载的是字体,那么就是assets目录,同理`/iconfont.ttf'`就是加载`assets`目录下的iconfont.ttf文件
+        url = "url('local:///font/iconfont.ttf')";//注意我这里是将字体文件放在'assets/font/''目录下的,所以
+    } else if ("ios" == platform) {
+        //todo 理论上同android未测试
+        url = "url('local:///font/iconfont.ttf')";
+    } else {
+        url = "url('http://at.alicdn.com/t/xxxxxxx.ttf')"
+    }
+    dom.addRule('fontFace', {
+        'fontFamily': "iconfont",
+        'src': url
+    });
+
+}

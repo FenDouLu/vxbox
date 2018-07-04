@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/data/node_work/vxbox/platforms/android/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/data/node_work/vxbox/platforms/android/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/data/node_work/vxbox/platforms/android/app/build/intermediates/res/merged/debug/menu/main_scan.xml",
+        "source": "/data/node_work/vxbox/platforms/android/app/src/main/res/menu/main_scan.xml"
+    }
+]

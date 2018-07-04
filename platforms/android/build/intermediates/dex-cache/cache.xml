@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weexplugin-loader/1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c85f46e9eed1cccfd0bf5df199dd53a66de98651">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weexplugin-loader-1.3_2b317ea08110d5317bed8015b86e19c044240794.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_d3505e6874973e407fe9fdfabfd3ef2e18173757.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.1.0_6a6979bdbc42bd4beb8d8bc5a6953fe7b8e74cd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/cn.sharesdk/ShareSDK/3.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="5afdaf989cba6d6d2c896227738aba74d42ead1a">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/cn.sharesdk-ShareSDK-3.2.0_57a690daf1a1a9bcf2632fd35b4ef86115727d95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_4c65c2bf85d14400ccf73ff1f8128372fd173445.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-QQ/3.2.0/f3316e923e487c407f8206ebee47f9dd934c6318/ShareSDK-QQ-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f3316e923e487c407f8206ebee47f9dd934c6318">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/ShareSDK-QQ-3.2.0_934e7ef4ccbc5db0e4f025069357f8cc1ce11008.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.taobao.android/weexplugin-processor/1.3/90f4c5cdb14a255dd3cc341b563271494e8cd941/weexplugin-processor-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="90f4c5cdb14a255dd3cc341b563271494e8cd941">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/weexplugin-processor-1.3_35c4a3cf0b32496062bb5fefdb9e56f0b28cc141.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_5b2ab9aaf0676ab5a4296538d4492906a30c099a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.mob/MobTools/2018.0614.1510/aa69886fb0ab7b1bf0b812ed12cbb24f1947532/MobTools-2018.0614.1510.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0aa69886fb0ab7b1bf0b812ed12cbb24f1947532">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/MobTools-2018.0614.1510_c571ff5a5051e8abe29913aa62966a7d94700532.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0_95f8aec4287d11238853b12fbd0fcb9e3767bae5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_2b00e40103b9b5cb9bc40ac939ab3f32db7b0c75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.3.0/7896d229b6aa7884552ab9c23de54c7eb0de8203/okhttp-ws-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.3.0_766e92bf4bf04574b804bfc868375f25ba602030.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/transition/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-26.1.0_43c4b6669a7df5f5f1f7638173c812dcc33917ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_289b762165da3dc057e15c598f4ede864eeec0ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.mob/SDKWrapper/2018.0201.1609/1058045b6dc4bdee017560a29c4d46b236b9b76/SDKWrapper-2018.0201.1609.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="01058045b6dc4bdee017560a29c4d46b236b9b76">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/SDKWrapper-2018.0201.1609_9583eeaf873e819d9c1334e0a4a338f73876f82b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_9352a5860535a26c97df047f15a133424a97df83.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/design/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-26.1.0_74dd233d1e31ece0c26d0ae4b260ca615d3cfb42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_b9e8596db95ba890cb72d17fcf972b78c6670552.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_inspector/0.10.0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="575d72d4a489260763ca62b2b54450fdec3bebd1">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_inspector-0.10.0.5_cd937b4a0e69ec4b151389c538f19612811ff47b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-SinaWeibo/3.2.0/8a6ba1e50f57c4d29d65615bfc546a34bc3f3c76/ShareSDK-SinaWeibo-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8a6ba1e50f57c4d29d65615bfc546a34bc3f3c76">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/ShareSDK-SinaWeibo-3.2.0_dc31fdd400a24bf68090e2c6a3e30ad33aefb55a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/cn.sharesdk/ShareSDK/3.2.0/jars/libs/ShareSDK-Core-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="753c9fcef4e7949ea2cdf7a25ed874dc7dd90720">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/ShareSDK-Core-3.2.0_c6d87223ae9f071ce255bdb866b634561b3624c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.1.0_398a122d2c2d96f1fc25d6a1fb7929ed2ae5c579.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_4eee0de69db7db8413a466b0dc604f2f6d50ae42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Wechat-Moments/3.2.0/fbe4a14ba80177c9722b57c0c4cf2bb99af784f3/ShareSDK-Wechat-Moments-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fbe4a14ba80177c9722b57c0c4cf2bb99af784f3">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Moments-3.2.0_2f01765c2b21d10c2a1aacbb28b70f8523b0db8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_6baf8765df9bcb631c2edbc134c85bea49400fa1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Wechat-Core/3.2.0/856b1c7112333bd634e7dd49113228d85fbf391b/ShareSDK-Wechat-Core-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="856b1c7112333bd634e7dd49113228d85fbf391b">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-Core-3.2.0_9c9f3a43e9977aad835f8b6f0b99018d4bd10c28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_2fa9509b966216eba269bbe8266f1b0bcec4c41d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.16.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9cfcc5fc657d64c980b45db00cd75695d1ce2256">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_sdk-0.16.0_64217f53d49d4c91594847f88d6b7cf6bb0015ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.mob/MobCommons/2018.0614.1539/6bc2493efc0ee59861fbdc21f4a32a6cb6c5bcce/MobCommons-2018.0614.1539.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6bc2493efc0ee59861fbdc21f4a32a6cb6c5bcce">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/MobCommons-2018.0614.1539_7919c122372d20c673f01867b1a988ef1c73947b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/cn.sharesdk/OneKeyShare/3.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c7c629b6a2e448098a9defa2b1cc2c713c20e0d4">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/cn.sharesdk-OneKeyShare-3.2.0_68d1b935afa5be59498da654e611faf591111ae6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.taobao.android/weexplugin-annotation/1.3/f9c594cafe95ab01986863300b2f2993b5777b42/weexplugin-annotation-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f9c594cafe95ab01986863300b2f2993b5777b42">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/weexplugin-annotation-1.3_a341afbc63092ca5d7b002b0994009058adbd77b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.4.0_26239c150f46c3d2a738d023a1b5b32ae20732c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.1.0_0da1aa2f20e71ffed6d2221d56369703cb89ada6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/okio-1.3.0_205dbb711424de07564b42af85bed8c06a7133e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_add2b08e926f22172d0b36d0b9c8f19e3ffed95a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.mob/MobGUI/2018.0614.1510/2236c58a21bcd7fd7631ae3f914f23746fcd8bd3/MobGUI-2018.0614.1510.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2236c58a21bcd7fd7631ae3f914f23746fcd8bd3">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/MobGUI-2018.0614.1510_28ff951e7d8e8ae36c16497bc9a7de55d2359b6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.46.android/108717c93f7aec31fb86db57cb4ad1e26034c638/fastjson-1.1.46.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="108717c93f7aec31fb86db57cb4ad1e26034c638">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/fastjson-1.1.46.android_2cbe0d05a417836b6a9ac4a351dd409fee08f8f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1_e773c09013ad26a75094a53956a9b9bb9695a4a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/dora/.gradle/caches/modules-2/files-2.1/cn.sharesdk/ShareSDK-Wechat/3.2.0/77209535c2a94fe956883aa771f53f45069fc977/ShareSDK-Wechat-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="77209535c2a94fe956883aa771f53f45069fc977">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/ShareSDK-Wechat-3.2.0_1e924ea3058a11e87bd066758b8764fbe81d5cc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_7a1510909a122e3a7c1b92e206cf67b6c9e1645b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/data/node_work/vxbox/platforms/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/data/node_work/vxbox/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-26.1.0_18b6431aad50ac0d49dbe03f10de8096420674ac.jar" />
+    </item>
+
+</items>

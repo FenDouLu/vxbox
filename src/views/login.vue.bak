@@ -1,0 +1,188 @@
+<template>
+    <div class="wrapper">
+        <div class="login">
+            <div class="input-wrapper">
+                <input  class="input" type="text" placeholder="手机号" autofocus="true" v v-model="userNumber"/>
+                <image class="input-img"  :src="get_img_path('username.png')"></image>
+            </div>
+            <div class="input-wrapper">
+                <input  class="input" type="password" placeholder="密码" v-model="userPassword"/>
+                <image class="input-img" :src="get_img_path('password.png')"></image>
+            </div>
+            <div class="input-wrapper">
+                <div class="input-login" @click="login">
+                    <text class="input-login-text">登录</text>
+                </div>
+            </div>
+            <div class="input-wrapper">
+                <text class="input-forget" onclick="findPassword">找回密码</text>
+                <text class="input-register" onclick="register">立即注册</text>
+            </div>
+        </div>
+
+        <div class="login_foot">
+            <text style="text-family: serif;font-size: 31px;color: #bebebe">————— 社交账号直接登录 —————</text>
+            <div class="third_login">
+                <image style="width: 100px;height: 100px" :src="get_img_path('qq.png')"></image>
+                <image style="width: 100px;height: 100px;margin-left: 20px" :src="get_img_path('weibo.png')"></image>
+            </div>
+        </div>
+
+        <toast id="toast"></toast>
+    </div>
+</template>
+
+<script>
+
+    import Nat from 'natjs'
+    const modal = weex.requireModule('modal');
+
+    module.exports = {
+        data(){
+            return{
+                userNumber:'',
+                userPassword:''
+            }
+        },
+        methods:{
+
+            /*找回密码*/
+            findPassword:function () {
+
+                modal.toast({
+                    message: 'Hello,找回密码暂时未开发，后续我们会进行完善。',
+                    duration: 2
+                });
+            },
+            /*注册*/
+            register:function () {
+
+                modal.toast({
+                    message: 'Hello,注册暂时未开发，后续我们会进行完善。',
+                    duration: 2
+                });
+
+
+            },
+            /*处理登录*/
+            login (event) {
+                if(this.userNumber.length < 1){
+                    modal.toast({
+                        message: '请输入账号',
+                        duration: 2
+                    });
+                    return;
+                }else if(this.userPassword.length < 1){
+
+                    modal.toast({
+                        message: '请输入密码',
+                        duration: 2
+                    });
+                    return;
+                }
+
+                Nat.fetch('https://suggest.taobao.com/sug?q=htc', (err, ret) => {
+                    console.log(ret)
+                })
+
+                modal.toast({
+                    message: "登录成功",
+                    duration: 2
+                })
+
+
+            },
+            get_img_path(img_name) {
+                let platform = weex.config.env.platform
+                let img_path = ''
+
+                if (platform == 'Web') {
+                    img_path = `http://172.16.154.8:8081/web/images/${img_name}`
+                } else if (platform == 'android') {
+                    // android 不需要后缀
+                    //img_name = img_name.substr(0, img_name.lastIndexOf('.'));
+                    img_path = `file:///android_asset/images/${img_name}`
+                } else {
+                    img_path = `../images/${img_name}`
+                }
+
+                return img_path
+            }
+        }
+    }
+</script>
+
+<style>
+    .wrapper {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .login{
+        margin-top: 180px;
+    }
+    .input-wrapper{
+        width: 550px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 30px;
+    }
+    .input {
+        font-size: 30px;
+        height: 80px;
+        width: 550px;
+        padding-left: 90px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-width:1px;
+        border-color: #48c9bf;
+        border-radius:10px;
+        outline: none;
+    }
+    .input-img{
+        position: absolute;
+        top:10px;
+        left: 15px;
+        width: 60px;
+        height: 60px;
+    }
+    .input-login{
+        height: 80px;
+        width: 550px;
+        background-color: #48c9bf;
+        border-radius: 10px;
+        margin-top: 40px;
+    }
+    .input-login-text{
+        height: 80px;
+        width: 550px;
+        text-align: center;
+        line-height: 80px;
+        color: white;
+        font-size: 35px;
+    }
+    .input-forget{
+        position: absolute;
+        left: 30px;
+        font-size: 30px;
+    }
+    .input-register{
+        position: absolute;
+        right: 30px;
+        font-size: 30px;
+    }
+    .login_foot {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .third_login {
+        margin-top: 20px;
+        justify-content: center;
+        flex-direction: row
+    }
+</style>
